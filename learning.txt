@@ -84,3 +84,5 @@ how to go to the branch
 git checkout branch_name
 
 so check the logs to understand the branches
+
+we always bring the branch which required to work on and take a cut into new branch and work.
