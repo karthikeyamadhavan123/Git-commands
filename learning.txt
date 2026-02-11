@@ -64,4 +64,6 @@ default mode is mixed
 soft the changes will come in staging area but mixed will bring them into unstaging area
 hard will delete the current commit it will remove the new commits and store the commits only upto which head is present
 
+reset will create merge conflict always so prefer revert
+
 another revert
