@@ -62,6 +62,16 @@ Changes not staged for commit:
         modified:   learning.txt
 default mode is mixed
 soft the changes will come in staging area but mixed will bring them into unstaging area
-hard will delete the current commit it will remove the new commits and store the commits only upto which head is present
+hard will delete the current commit it will remove the newsent
 
+reset will create merge conflict always so prefer revert
 another revert
+git revert commitId -- to revert 
+revert create another commit revert commit message and we can always checkout for the content of the revert commit by
+git checkout revertCommitId --to view the content of the commit reverted
+
+Branches
+What are Branches
+when u are commiting until u push it to the remote github it is stored in local branch 
+
+how to create a branch git branch branch_name
