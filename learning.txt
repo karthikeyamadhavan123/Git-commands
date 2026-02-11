@@ -45,12 +45,10 @@ Undo commits
 git reset -> provides a way to unstage a file and undo commits and delete commits.
 types of reset soft mixed hard.
 git reset ---soft commitId try to use only the previous commits // changes in the commit are unstaged.
+PS D:\git-practice> git reset --soft previousCommitId
 PS D:\git-practice> git reset --soft 2d7af9e8ac069645451499a162d33ce9fee051eb
 PS D:\git-practice>
-
-
-
-                    git status
+git status
 On branch main
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
@@ -62,3 +60,8 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   learning.txt
+default mode is mixed
+soft the changes will come in staging area but mixed will bring them into unstaging area
+hard will delete the current commit it will remove the new commits and store the commits only upto which head is present
+
+another revert
