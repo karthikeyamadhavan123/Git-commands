@@ -1,0 +1,64 @@
+whenever u want a local repo intialized then use
+1. git init | git init --initial-branch = name
+
+to check whether git knows about the file 
+git status
+
+to add files to local repo 
+git add . all untracked files
+git add <file_name> only a particular file. when we add like this the information is sent to staging area.
+
+(use "git rm --cached <file>..." to unstage)
+
+git commit -m message (we cant bring back files if we dont commit it) this takes a snapshot of local repo.
+
+git log gets the commits 
+
+git log
+commit comit ssh (HEAD -> main)
+Author: name emial
+Date:   time in utc
+
+First Commit 
+a branch is created when u do the first commit
+as branch is created a HEAD variable is created
+it is a pointer to the latest commit 
+
+ok when new commit are created the previous commit information also comes
+
+when u edit the files which are commited or in staging are if u modify it git can track it.
+when u modify again u have to add it to staging area and then commit.
+
+git commit -a -m message commits the file without the add to staging area. use this only with tracked files which are tracked by git.
+git commit --amend // the previous latest commit can be added with the current staged files.
+
+suppose there is f2 file which is changed and i dont want to create a new commit object but want to the commit with the previous latest commit then use git commit --amend
+
+logs
+git log shows all
+git log -n 2 last 2 commit only shown
+git log --pretty=short|full (controls the output style);
+git log -p (shows all the commits made in the staging)
+git log --since="1 week ago"  shows all the commits in last one week
+
+Undo commits
+git reset -> provides a way to unstage a file and undo commits and delete commits.
+types of reset soft mixed hard.
+git reset ---soft commitId try to use only the previous commits // changes in the commit are unstaged.
+PS D:\git-practice> git reset --soft 2d7af9e8ac069645451499a162d33ce9fee051eb
+PS D:\git-practice>
+
+
+
+                    git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   f1.txt
+        modified:   f2.txt
+        new file:   learning.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   learning.txt
