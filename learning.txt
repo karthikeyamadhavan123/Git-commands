@@ -82,3 +82,5 @@ when the branches head are same then we can say they are in sync
 
 how to go to the branch
 git checkout branch_name
+
+so check the logs to understand the branches
