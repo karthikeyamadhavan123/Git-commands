@@ -85,4 +85,6 @@ git checkout branch_name
 
 so check the logs to understand the branches
 
-we always bring the branch which required to work on and take a cut into new branch and work.
+we always bring the branch which required to work on and take a cut into new branch and work. 
+
+when we want to merge main with master or vice versa we go to the branch which want the changes and merge with branch which has changes so the commit in the feature are added to the parent branch 
