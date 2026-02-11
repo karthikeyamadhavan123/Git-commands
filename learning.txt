@@ -75,3 +75,10 @@ What are Branches
 when u are commiting until u push it to the remote github it is stored in local branch 
 
 how to create a branch git branch branch_name
+git branch shows all the Branches.(local branches shows this only)
+git log
+commit commitId (HEAD -> main, origin/main, master)
+when the branches head are same then we can say they are in sync
+
+how to go to the branch
+git checkout branch_name
