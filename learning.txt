@@ -92,3 +92,8 @@ when we want to merge main with master or vice versa we go to the branch which w
 always remember to merge parent branch with child execute from parent branch
 
 when source branch head changes means there is an update in branch which is not available in child branches
+
+Cherry Pick
+cherry pick helps not use merge mainly we can use merge also no worries
+
+syntax git cherry-pick commitId
