@@ -90,3 +90,5 @@ we always bring the branch which required to work on and take a cut into new bra
 when we want to merge main with master or vice versa we go to the branch which want the changes and merge with branch which has changes so the commit in the feature are added to the parent branch 
 
 always remember to merge parent branch with child execute from parent branch
+
+when source branch head changes means there is an update in branch which is not available in child branches
