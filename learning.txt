@@ -113,3 +113,23 @@ if ur remote is ahead of local repo and try to push from local it will throw err
 so u can use either git fetch or git pull for this 
 
 git fetch always updates the local branch by checking the remote tracking branches.(it doesnt add to the local branch). then u can merge with those new changes.
+
+git fetch origin master 
+origin/master will move to the latest remote command and then merge to set master and origin/master at same.s
+ * branch            master     -> FETCH_HEAD
+   b1135d0..a98666b  master     -> origin/master(remote commit)
+git merge origin/master
+Updating b1135d0..a98666b
+Fast-forward
+
+git pull works = git fetch + git merge
+
+git fetch --prune (deletes the local repo which are not there in remote)
+
+git fetch origin (fetches all the changes from remote) dont do generally
+
+u can use git pull only on protected branch like main
+
+git stash is used to store the data temporarily
+git stash u can stash changes
+git stash list to see all stash
