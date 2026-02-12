@@ -104,3 +104,10 @@ git remote origin REMOTE_URL
 git branch -r(fetches the remote branches)
 
 git push -u origin master (for the first time only).
+
+
+git clone url it helps in downloading the copy of the remote into local(u use when u dont have the project)
+
+if ur remote is ahead of local repo and try to push from local it will throw error because it is not reflected on local 
+
+so u can use either git fetch or git pull for this 
