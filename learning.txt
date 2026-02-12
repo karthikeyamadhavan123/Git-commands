@@ -97,3 +97,10 @@ Cherry Pick
 cherry pick helps not use merge mainly we can use merge also no worries
 
 syntax git cherry-pick commitId(always remeber the commitID will be a copy of that original commitId)
+
+whenever we want to add remote github server to local then use:
+git remote origin REMOTE_URL
+
+git branch -r(fetches the remote branches)
+
+git push -u origin master (for the first time only).
