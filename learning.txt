@@ -96,4 +96,4 @@ when source branch head changes means there is an update in branch which is not 
 Cherry Pick
 cherry pick helps not use merge mainly we can use merge also no worries
 
-syntax git cherry-pick commitId
+syntax git cherry-pick commitId(always remeber the commitID will be a copy of that original commitId)
