@@ -111,3 +111,5 @@ git clone url it helps in downloading the copy of the remote into local(u use wh
 if ur remote is ahead of local repo and try to push from local it will throw error because it is not reflected on local 
 
 so u can use either git fetch or git pull for this 
+
+git fetch always updates the local branch by checking the remote tracking branches.(it doesnt add to the local branch). then u can merge with those new changes.
