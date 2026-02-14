@@ -102,6 +102,7 @@ whenever we want to add remote github server to local then use:
 git remote origin REMOTE_URL
 
 git branch -r(fetches the remote branches)
+git branch -m old-branch-name new-branch-name rename branch
 
 git push -u origin master (for the first time only).
 
