@@ -118,9 +118,8 @@ git fetch always updates the local branch by checking the remote tracking branch
 git fetch origin master 
 origin/master will move to the latest remote command and then merge to set master and origin/master at same.s
  * branch            master     -> FETCH_HEAD
-   b1135d0..a98666b  master     -> origin/master(remote commit)
+    master     -> origin/master(remote commit)
 git merge origin/master
-Updating b1135d0..a98666b
 Fast-forward
 
 git pull works = git fetch + git merge
